@@ -35,7 +35,7 @@ Deployment	Local / GitHub / Streamlit Cloud
 
 Clone this repository:
 
-git clone https://github.com/YOUR_USERNAME/Project_Samarth.git
+git clone https://github.com/Sarika-kore-50/Project_Samarth.git
 cd Project_Samarth
 
 
