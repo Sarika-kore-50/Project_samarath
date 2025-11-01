@@ -1,0 +1,44 @@
+#🧩 Project Requirements
+1️⃣ Core System Requirements
+Component	Minimum	Recommended
+Python Version	3.10+	3.11
+OS	Windows 10 / macOS / Linux	Any
+RAM	4 GB	8 GB+
+Internet	Required (for g4f API)	Stable broadband
+2️⃣ Python Dependencies
+
+Create a file named requirements.txt with the following content:
+
+streamlit==1.39.0
+g4f==6.5.4
+pandas
+numpy
+requests
+matplotlib
+plotly
+scikit-learn
+
+
+✅ Optional: If you’re adding weather data fetching or visualization
+add:
+
+geopy
+openmeteo_requests
+
+
+Then install everything with:
+pip install -r requirements.txt
+Streamlit Run Command
+
+To launch locally:
+streamlit run app.py
+
+Environment Tips
+Avoid using Python 3.12 (some g4f builds break on it).
+Run in a virtual environment to isolate packages:
+
+python -m venv venv
+venv\Scripts\activate   # Windows
+source venv/bin/activate  # macOS/Linux
+
+Always test your build by reinstalling on a fresh clone.
