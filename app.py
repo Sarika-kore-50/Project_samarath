@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon="🌾",
     layout="centered"
 ).  
-
+    
 # 🌾 Title and Intro
 st.title("🌾 Project Samarth — AI Assistant for Agriculture Insights")
 
