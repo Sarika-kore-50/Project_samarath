@@ -55,7 +55,7 @@ if st.button("🔍 Generate Insight"):
                 st.error(f"❌ Error: {e}")
                 st.info("Try again or switch to another provider if the issue persists.")
 
-# 🌱 Footer
+# 🌱 Footer. 
 st.markdown("---")
 st.caption("""
 Developed under 🌾 **Project Samarth**  
